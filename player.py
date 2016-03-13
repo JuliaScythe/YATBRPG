@@ -1,3 +1,6 @@
+# pickle serializes objects, enabling saving
+import pickle
+
 class Player:
     def __init__(self, playerClass, name):
         self.initClass(playerClass)
@@ -21,4 +24,3 @@ class Player:
         self.maxHealth = self.health
         self.maxEnergy = self.energy
         self.maxMana = self.mana
-        
